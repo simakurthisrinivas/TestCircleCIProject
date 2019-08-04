@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="0" parallel="classes"  thread-count="2">
+
+	<test name="Circle">
+		<classes>
+			<class name="com.test.circle.Circledemo" />
+			<class name="com.test.circle.Circledemo1" />
+		</classes>
+	</test>
+
+	 <!-- <test name="Circle2">
+		<classes>
+			<class name="com.test.circle.Circledemo1" />
+		</classes>
+	</test>  -->
+	
+</suite>
