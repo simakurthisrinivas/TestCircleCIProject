@@ -8,7 +8,7 @@
 
 	<properties>
 	<defaultSuiteFiles>
-                     IVRtestng.xml
+                     testng.xml
               </defaultSuiteFiles>
               <suiteFile>${defaultSuiteFiles}</suiteFile>
 	
