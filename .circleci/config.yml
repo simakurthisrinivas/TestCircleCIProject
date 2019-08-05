@@ -38,6 +38,6 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
       # Run Selenium
       - run: xvfb-run java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone.jar >/dev/null 2>&1 &
-      - run: mvn clean install -DskipTests
+      - run: mvn clean install -U
       # run tests!
       - run: mvn test
