@@ -3,13 +3,7 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
-jobs:
-  build:
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:10.6.1
-    
 
     steps:
       -checkout
-      - run: /usr/bin/mvn test
+      - run: mvn -version
