@@ -15,7 +15,7 @@ public class Circledemo {
 	
 	public WebDriver driver;
 	String url="http://toolsqa.com/automation-practice-form/";
-	String exePath = "../../../../../chromedriver";
+	String exePath = "/chromedriver";
 	
 	@Test
 	
