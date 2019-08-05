@@ -12,4 +12,4 @@ jobs:
 
     steps:
       -checkout
-      - run: mvn test
+      - run: /usr/bin/mvn test
